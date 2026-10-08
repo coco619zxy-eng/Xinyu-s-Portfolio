@@ -1,0 +1,25 @@
+# Only the website itself goes online (this repo is public on GitHub Pages).
+# Everything is ignored except the files listed with "!" below, so originals, notes and tools never get uploaded.
+/*
+!/.gitignore
+!/.nojekyll
+!/*.html
+!/css/
+!/js/
+!/fonts/
+!/assets/
+
+# inside assets: not used by the pages (kept on disk only)
+/assets/resume/
+/assets/images/social/
+/assets/images/safebites/screens-sm.jpg
+/assets/videos/motions.mp4
+/assets/videos/motions-preview.mp4
+/assets/videos/motions-poster.jpg
+/assets/videos/experimental.mp4
+/assets/videos/experimental-preview.mp4
+/assets/videos/experimental-poster.jpg
+/assets/videos/graphic.mp4
+
+.DS_Store
+*.sb-*

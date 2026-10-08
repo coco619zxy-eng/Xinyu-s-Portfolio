@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>About — Xinyu Zhang (Coco)</title>
+  <meta name="description" content="About Xinyu Zhang (Coco), Product Designer based in Toronto, CA.">
+  <meta name="theme-color" content="#171716">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23171716'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23EEF27A'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- non-blocking: the page renders straight away, fonts swap in when they arrive -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap"></noscript>
+  <link rel="preload" href="fonts/KulimPark-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="fonts/KulimPark-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="back" href="index.html" aria-label="Back to work">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+  </a>
+
+  <main>
+    <article class="article reveal">
+      <!-- Photo: assets/images/portrait.jpg (made with tools/webphoto.swift).
+           If you swap it, update --ar and width/height to the new pixel size.
+           "See Resume" opens the PDF in the browser's own viewer (read it there, or download it) -->
+      <div class="portrait-row">
+        <figure class="portrait" style="--ar: 640 / 812">
+          <div class="portrait__ph" aria-hidden="true">Coco</div>
+          <img src="assets/images/portrait.jpg" width="640" height="812"
+               alt="Coco smiling, leaning against a curved wooden wall" data-optional>
+        </figure>
+        <!-- "See Resume" is hidden until there is an updated PDF (Coco, 2026-10-08). To bring it back: delete the two
+             comment lines around it and point href at assets/resume/Xinyu-Zhang-Resume.pdf with target="_blank" rel="noopener"
+        <a class="cta" href="assets/resume/Xinyu-Zhang-Resume.pdf" target="_blank" rel="noopener">
+          See Resume<svg class="arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+        </a>
+        -->
+      </div>
+
+      <!-- Copy written from Coco's resume -->
+      <div class="prose">
+        <p>My name is Xinyu Zhang, and I’m a Product Designer based in Toronto, Canada.</p>
+        <p>What I do best is taking a product from first idea to launch. At Cortech I solely designed <strong>Trakable</strong>, a construction safety SaaS platform, from its user flows, design system and desktop/mobile UI to the brand, website and marketing behind its launch.</p>
+        <p>I’m also a multidisciplinary designer: alongside UX/UI, I work across branding, web, social content and 2D/3D motion, so every touchpoint feels like the same product.</p>
+      </div>
+
+      <section class="section" aria-labelledby="exp">
+        <h2 class="section__title" id="exp">Experience</h2>
+
+        <div class="entry">
+          <h3 class="entry__title">UX/UI &amp; Product Designer at Cortech Safety Solutions</h3>
+          <p class="entry__desc">Led Trakable end to end: brand identity, website and a responsive SaaS platform with multi-role dashboards, training and certification workflows, built on a scalable Figma component system.</p>
+          <p class="entry__year">2025 — Present</p>
+        </div>
+
+        <div class="entry">
+          <h3 class="entry__title">UI &amp; Product Designer (Intern) at Leavoda</h3>
+          <p class="entry__desc">Refined the UI system of Leavoda’s SaaS software in Figma, along with illustrations, website assets and a marketing proposal book.</p>
+          <p class="entry__year">2025</p>
+        </div>
+
+        <div class="entry">
+          <h3 class="entry__title">Web, Social Media &amp; Content Designer</h3>
+          <p class="entry__desc">Websites, social content and brand videos for MINOA Home, QingLiu App and Cunshan Health, including 1,500 organic Instagram followers and viral RED posts with 2,000+ likes each.</p>
+          <p class="entry__year">2021 — 2024</p>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="edu">
+        <h2 class="section__title" id="edu">Education</h2>
+        <div class="entry">
+          <h3 class="entry__title">Master of Digital Media Production, University College London (UCL)</h3>
+          <p class="entry__desc">Focus: Interactive media design, animation and visual storytelling.</p>
+          <p class="entry__year">2025 — 2026</p>
+        </div>
+        <div class="entry">
+          <h3 class="entry__title">Honours Bachelor of Arts with High Distinction, University of Toronto</h3>
+          <p class="entry__desc">Double major in Communication, Culture, Information &amp; Technology and Cinema Studies.<br>
+             Focus: UX/UI, interactive design, graphic design, multimedia production, brand marketing and digital advertising.</p>
+          <p class="entry__year">2021 — 2025</p>
+        </div>
+      </section>
+    </article>
+
+    <footer class="colophon">
+      <p>Designed and built by Coco.</p>
+      <p><a href="https://www.linkedin.com/in/xinyuzhangcoco" target="_blank" rel="noopener">LinkedIn</a> · <a href="mailto:coco619zxy@gmail.com">Email</a></p>
+    </footer>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

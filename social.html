@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Social Media &amp; Digital Content Design — Xinyu Zhang (Coco)</title>
+  <meta name="description" content="Social media and digital content design by Xinyu Zhang (Coco), Product Designer based in Toronto, CA.">
+  <meta name="theme-color" content="#171716">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23171716'/%3E%3Ccircle cx='32' cy='32' r='13' fill='%23EEF27A'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- non-blocking: the page renders straight away, fonts swap in when they arrive -->
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap"></noscript>
+  <link rel="preload" href="fonts/KulimPark-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="fonts/KulimPark-SemiBold.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page">
+
+    <header class="sidebar reveal">
+      <div class="intro">
+        <div class="intro__id">
+          <p class="name"><a href="index.html">Xinyu Zhang (Coco)</a></p>
+          <p class="role">Product Designer<br>Based in Toronto, CA</p>
+        </div>
+        <nav class="nav nav--sub" aria-label="Primary">
+          <a class="nav__link" href="index.html">Home</a>
+          <a class="nav__link" href="about.html">About</a>
+        </nav>
+      </div>
+      <nav class="sidebar__links" aria-label="Elsewhere">
+        <a class="nav__link" href="https://www.linkedin.com/in/xinyuzhangcoco" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="nav__link" href="mailto:coco619zxy@gmail.com">Email</a>
+      </nav>
+    </header>
+
+    <!-- ============ Social Media & Digital Content Design — three projects (I For Cortech, II Moving posters,
+         III Brochure), each a .so-sec with a numbered heading; works three to a row, in order.
+         Each work is a .so-item: an image (a.so-item__frame[href] + img, click = full screen, ← → to browse)
+         or a video (a.card.card--media.card--bleed.so-item__frame with data-video / data-full / data-poster) ============ -->
+    <main class="work">
+      <div class="wk-head reveal">
+        <h1 class="wk-title">Social Media &amp; Digital Content Design</h1>
+        <p class="work__intro">Posts, carousels, short videos and campaign content.</p>
+      </div>
+
+      <!-- ============ I · For Cortech (construction industry) — posts and short videos, three to a row, each with its caption ============ -->
+      <section class="so-sec" id="cortech" aria-labelledby="cortech-title">
+        <div class="wk-head reveal">
+          <h2 class="wk-title" id="cortech-title"><span class="so-num">I.</span> For Cortech <span class="so-sec__kind">(Construction Industry)</span></h2>
+        </div>
+        <div class="so-wall reveal-items" data-gallery data-title="For Cortech">
+          <figure class="so-item">
+            <a class="card card--media card--bleed so-item__frame" href="#labour-day" id="labour-day"
+               data-title="Happy Labour Day" data-year="Cortech · 2026"
+               data-video="assets/videos/social-labour-day-preview.mp4" data-full="assets/videos/social-labour-day.mp4"
+               data-poster="assets/videos/social-labour-day-poster.jpg" data-ratio="1080 / 1350" data-audio
+               aria-label="Happy Labour Day video for Cortech. Play full screen with sound">
+              <div class="card__media"></div>
+              <span class="card__hint" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+                Full screen with sound
+              </span>
+            </a>
+            <figcaption class="so-item__cap"><span class="so-item__title">Happy Labour Day</span><span class="so-item__meta">Cortech · 2026</span></figcaption>
+          </figure>
+          <figure class="so-item">
+            <a class="so-item__frame" href="assets/images/social-media/mental-health.jpg" data-size="3375/4219" data-title="Prioritize Your Mental Health" data-squircle aria-label="Prioritize Your Mental Health, full screen">
+              <img src="assets/images/social-media/mental-health-sm.jpg" alt="Prioritize Your Mental Health — Cortech · 2026" width="800" height="1000" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="so-item__cap"><span class="so-item__title">Prioritize Your Mental Health</span><span class="so-item__meta">Cortech · 2026</span></figcaption>
+          </figure>
+          <figure class="so-item">
+            <a class="so-item__frame so-item__frame--contain" href="assets/images/social-media/womens-day.jpg" data-size="2048/2048" data-title="International Women’s Day" data-squircle aria-label="International Women’s Day, full screen">
+              <img src="assets/images/social-media/womens-day-sm.jpg" alt="International Women’s Day — Cortech · 2026" width="900" height="900" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="so-item__cap"><span class="so-item__title">International Women’s Day (Illustration)</span><span class="so-item__meta">Cortech · 2026</span></figcaption>
+          </figure>
+          <figure class="so-item">
+            <a class="so-item__frame" href="assets/images/social-media/working-at-heights.jpg" data-size="3375/4219" data-title="Working at Heights Training" data-squircle aria-label="Working at Heights Training, full screen">
+              <img src="assets/images/social-media/working-at-heights-sm.jpg" alt="Working at Heights Training — Cortech · 2026" width="800" height="1000" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="so-item__cap"><span class="so-item__title">Working at Heights Training</span><span class="so-item__meta">Cortech · 2026</span></figcaption>
+          </figure>
+          <!-- 9:16 story: the card preview is a 4:5 crop of it (logo trimmed), full screen plays it whole -->
+          <figure class="so-item">
+            <a class="card card--media card--bleed so-item__frame" href="#traffic-control" id="traffic-control"
+               data-title="Traffic Control &amp; Planning" data-year="Cortech · 2026"
+               data-video="assets/videos/social-traffic-control-preview.mp4" data-full="assets/videos/social-traffic-control.mp4"
+               data-poster="assets/videos/social-traffic-control-poster.jpg" data-ratio="9 / 16" data-audio
+               aria-label="Traffic Control &amp; Planning video for Cortech. Play full screen with sound">
+              <div class="card__media"></div>
+              <span class="card__hint" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+                Full screen with sound
+              </span>
+            </a>
+            <figcaption class="so-item__cap"><span class="so-item__title">Traffic Control &amp; Planning</span><span class="so-item__meta">Cortech · 2026</span></figcaption>
+          </figure>
+          <!-- 16:9 video: the card preview is padded to 4:5 with each frame's own edge colour (tools/padvideo.swift) -->
+          <figure class="so-item">
+            <a class="card card--media card--bleed so-item__frame" href="#we-help" id="we-help"
+               data-title="We Help You Do It Right" data-year="Cortech · 2026"
+               data-video="assets/videos/social-we-help-preview.mp4" data-full="assets/videos/social-we-help.mp4"
+               data-poster="assets/videos/social-we-help-poster.jpg" data-ratio="16 / 9" data-audio
+               aria-label="We Help You Do It Right video for Cortech. Play full screen with sound">
+              <div class="card__media"></div>
+              <span class="card__hint" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+                Full screen with sound
+              </span>
+            </a>
+            <figcaption class="so-item__cap"><span class="so-item__title">We Help You Do It Right</span><span class="so-item__meta">Cortech · 2026</span></figcaption>
+          </figure>
+          <figure class="so-item">
+            <a class="so-item__frame" href="assets/images/social-media/heights-course-toronto.jpg" data-size="2700/3375" data-title="Working at Heights Training Course" data-squircle aria-label="Working at Heights Training Course, full screen">
+              <img src="assets/images/social-media/heights-course-toronto-sm.jpg" alt="Working at Heights Training Course — Cortech · 2026" width="800" height="1000" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="so-item__cap"><span class="so-item__title">Working at Heights Training Course</span><span class="so-item__meta">Cortech · 2026</span></figcaption>
+          </figure>
+          <figure class="so-item">
+            <a class="so-item__frame so-item__frame--contain" href="assets/images/social-media/heights-course.jpg" data-size="3375/3375" data-title="Working at Heights — Need Training?" data-squircle style="--fill:#395677" aria-label="Working at Heights — Need Training?, full screen">
+              <img src="assets/images/social-media/heights-course-sm.jpg" alt="Working at Heights — Need Training? — Cortech · 2026" width="900" height="900" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="so-item__cap"><span class="so-item__title">Working at Heights — Need Training?</span><span class="so-item__meta">Cortech · 2026</span></figcaption>
+          </figure>
+          <figure class="so-item">
+            <a class="so-item__frame" href="assets/images/social-media/inspect-equipment.jpg" data-size="1620/2025" data-title="Inspect the Equipment" data-squircle aria-label="Inspect the Equipment, full screen">
+              <img src="assets/images/social-media/inspect-equipment-sm.jpg" alt="Inspect the Equipment — Cortech · 2026" width="800" height="1000" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="so-item__cap"><span class="so-item__title">Inspect the Equipment</span><span class="so-item__meta">Cortech · 2026</span></figcaption>
+          </figure>
+          <figure class="so-item">
+            <a class="so-item__frame so-item__frame--contain" href="assets/images/social-media/labour-day-type.jpg" data-size="2233/1872" data-title="Happy Labour Day — Typography" data-squircle style="--fill:#395676" aria-label="Happy Labour Day — Typography, full screen">
+              <img src="assets/images/social-media/labour-day-type-sm.jpg" alt="Happy Labour Day — Typography — Cortech · 2026" width="1000" height="839" loading="lazy" decoding="async">
+            </a>
+            <figcaption class="so-item__cap"><span class="so-item__title">Happy Labour Day — Typography</span><span class="so-item__meta">Cortech · 2026</span></figcaption>
+          </figure>
+          <figure class="so-item">
+            <a class="card card--media card--bleed so-item__frame" href="#behind-the-scene" id="behind-the-scene"
+               data-title="Behind the Scene" data-year="Cortech · 2026"
+               data-video="assets/videos/social-behind-the-scene-preview.mp4" data-full="assets/videos/social-behind-the-scene.mp4"
+               data-poster="assets/videos/social-behind-the-scene-poster.jpg" data-ratio="1080 / 1350" data-audio
+               aria-label="Behind the Scene video for Cortech. Play full screen with sound">
+              <div class="card__media"></div>
+              <span class="card__hint" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+                Full screen with sound
+              </span>
+            </a>
+            <figcaption class="so-item__cap"><span class="so-item__title">Behind the Scene</span><span class="so-item__meta">Cortech · 2026</span></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ============ II · Moving posters (just for fun) — six animated posters, no captions. One file each: the card loops it silently,
+           full screen plays the same file (with sound where it has some). Posters that aren't 4:5 are shown whole,
+           the narrow side bands in the poster's own background colour (--fill). ============ -->
+      <section class="so-sec" id="moving-posters" aria-labelledby="moving-posters-title">
+        <div class="wk-head reveal">
+          <h2 class="wk-title" id="moving-posters-title"><span class="so-num">II.</span> Moving Posters <span class="so-sec__kind">(Just for Fun)</span></h2>
+        </div>
+        <div class="so-wall so-wall--bare reveal-items">
+          <figure class="so-item">
+            <a class="card card--media card--bleed so-item__frame so-item__frame--contain" href="#coffee-books" id="coffee-books" style="--fill:#9A6CFF"
+               data-title="Coffee &amp; Books" data-year="Café poster"
+               data-video="assets/videos/poster-coffee-books.mp4" data-poster="assets/videos/poster-coffee-books-poster.jpg" data-ratio="1080 / 1440"
+               aria-label="Coffee and Books moving poster. Play full screen">
+              <div class="card__media"></div>
+              <span class="card__hint" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7"/></svg>
+                View full screen
+              </span>
+            </a>
+          </figure>
+          <figure class="so-item">
+            <a class="card card--media card--bleed so-item__frame so-item__frame--contain" href="#good-coffee" id="good-coffee" style="--fill:#FCF9EE"
+               data-title="Good Coffee, Good Mood" data-year="Café poster"
+               data-video="assets/videos/poster-good-coffee.mp4" data-poster="assets/videos/poster-good-coffee-poster.jpg" data-ratio="1080 / 1398" data-audio
+               aria-label="Good Coffee, Good Mood moving poster. Play full screen with sound">
+              <div class="card__media"></div>
+              <span class="card__hint" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+                Full screen with sound
+              </span>
+            </a>
+          </figure>
+          <figure class="so-item">
+            <a class="card card--media card--bleed so-item__frame" href="#coming-soon" id="coming-soon"
+               data-title="Coming Soon" data-year="Teaser poster"
+               data-video="assets/videos/poster-coming-soon.mp4" data-poster="assets/videos/poster-coming-soon-poster.jpg" data-ratio="1080 / 1350" data-audio
+               aria-label="Coming Soon moving poster. Play full screen with sound">
+              <div class="card__media"></div>
+              <span class="card__hint" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+                Full screen with sound
+              </span>
+            </a>
+          </figure>
+          <figure class="so-item">
+            <a class="card card--media card--bleed so-item__frame" href="#avant-garde-date" id="avant-garde-date"
+               data-title="Avant Garde Date" data-year="Film screening poster"
+               data-video="assets/videos/poster-avant-garde-date.mp4" data-poster="assets/videos/poster-avant-garde-date-poster.jpg" data-ratio="1080 / 1398" data-audio
+               aria-label="Avant Garde Date moving poster. Play full screen with sound">
+              <div class="card__media"></div>
+              <span class="card__hint" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+                Full screen with sound
+              </span>
+            </a>
+          </figure>
+          <!-- 9:16 story, shown at its own size (Coco: "原size") — the card is 9:16, not cropped to 4:5 -->
+          <figure class="so-item">
+            <a class="card card--media card--bleed so-item__frame" href="#kiokii-pop-up" id="kiokii-pop-up" style="aspect-ratio: 9 / 16"
+               data-title="Kiokii × UTMCSSA Pop-up" data-year="Pop-up event poster"
+               data-video="assets/videos/poster-kiokii-pop-up.mp4" data-poster="assets/videos/poster-kiokii-pop-up-poster.jpg" data-ratio="9 / 16" data-audio
+               aria-label="Kiokii and UTMCSSA pop-up moving poster. Play full screen with sound">
+              <div class="card__media"></div>
+              <span class="card__hint" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+                Full screen with sound
+              </span>
+            </a>
+          </figure>
+          <figure class="so-item">
+            <a class="card card--media card--bleed so-item__frame" href="#thanksgiving" id="thanksgiving"
+               data-title="Happy Thanksgiving" data-year="Holiday poster"
+               data-video="assets/videos/poster-thanksgiving.mp4" data-poster="assets/videos/poster-thanksgiving-poster.jpg" data-ratio="1080 / 1350" data-audio
+               aria-label="Happy Thanksgiving moving poster. Play full screen with sound">
+              <div class="card__media"></div>
+              <span class="card__hint" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+                Full screen with sound
+              </span>
+            </a>
+          </figure>
+        </div>
+      </section>
+
+      <!-- ============ III · Brochure — Cortech's 4-page A4 brochure (2025, from "Cortech's brochure.pdf"), two pages to a row, square corners.
+           Its own gallery: click a page = full screen, ← → between the 4 pages ============ -->
+      <section class="so-sec" id="brochure" aria-labelledby="brochure-title">
+        <div class="wk-head reveal">
+          <h2 class="wk-title" id="brochure-title"><span class="so-num">III.</span> Brochure</h2>
+          <p class="so-sec__meta">Cortech · 2025 · 4 pages, A4</p>
+        </div>
+        <div class="so-wall so-wall--2 reveal-items" data-gallery data-title="Cortech Brochure">
+          <figure class="so-item">
+            <a class="so-item__frame so-item__frame--a4" href="assets/images/brochure/cortech-1.jpg" data-size="1696/2400" data-title="Cortech Brochure — Cover" data-radius="0" aria-label="Cortech Brochure page 1, Cover, full screen">
+              <img src="assets/images/brochure/cortech-1-sm.jpg" alt="Cortech Brochure page 1 — Cover" width="1102" height="1560" loading="lazy" decoding="async">
+            </a>
+          </figure>
+          <figure class="so-item">
+            <a class="so-item__frame so-item__frame--a4" href="assets/images/brochure/cortech-2.jpg" data-size="1696/2400" data-title="Cortech Brochure — Industries, Process &amp; Services" data-radius="0" aria-label="Cortech Brochure page 2, Industries, Process &amp; Services, full screen">
+              <img src="assets/images/brochure/cortech-2-sm.jpg" alt="Cortech Brochure page 2 — Industries, Process &amp; Services" width="1102" height="1560" loading="lazy" decoding="async">
+            </a>
+          </figure>
+          <figure class="so-item">
+            <a class="so-item__frame so-item__frame--a4" href="assets/images/brochure/cortech-3.jpg" data-size="1696/2400" data-title="Cortech Brochure — Who We Are &amp; Why Choose Us" data-radius="0" aria-label="Cortech Brochure page 3, Who We Are &amp; Why Choose Us, full screen">
+              <img src="assets/images/brochure/cortech-3-sm.jpg" alt="Cortech Brochure page 3 — Who We Are &amp; Why Choose Us" width="1102" height="1560" loading="lazy" decoding="async">
+            </a>
+          </figure>
+          <figure class="so-item">
+            <a class="so-item__frame so-item__frame--a4" href="assets/images/brochure/cortech-4.jpg" data-size="1696/2400" data-title="Cortech Brochure — Develop | Implement | Conform" data-radius="0" aria-label="Cortech Brochure page 4, Develop | Implement | Conform, full screen">
+              <img src="assets/images/brochure/cortech-4-sm.jpg" alt="Cortech Brochure page 4 — Develop | Implement | Conform" width="1102" height="1560" loading="lazy" decoding="async">
+            </a>
+          </figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="about.html">About</a>
+      <a class="nav__link" href="https://www.linkedin.com/in/xinyuzhangcoco" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="nav__link" href="mailto:coco619zxy@gmail.com">Email</a>
+    </footer>
+  </div>
+
+
+  <!-- ============ Full-screen player ============ -->
+  <div class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Full screen viewer">
+    <button class="lightbox__close" type="button" aria-label="Close">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" aria-label="Previous" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <button class="lightbox__nav lightbox__nav--next" type="button" aria-label="Next" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+    <div class="lightbox__inner">
+      <div class="lightbox__stage"></div>
+      <div class="lightbox__caption">
+        <h2 class="lightbox__title"></h2>
+        <p class="lightbox__year"></p>
+        <button class="lightbox__sound" type="button" aria-pressed="true" hidden>
+          <svg class="icon-on" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M19 5a10 10 0 0 1 0 14"/></svg>
+          <svg class="icon-off" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H2v6h4l5 4V5z"/><path d="m22 9-6 6M16 9l6 6"/></svg>
+          <span class="lightbox__sound-label">Sound on</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

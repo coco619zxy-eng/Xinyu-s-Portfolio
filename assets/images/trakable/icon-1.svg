@@ -1,0 +1,22 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M180 140L280 120V280H180V140Z" fill="#2B8F9E" stroke="#231F20" stroke-width="4" stroke-linejoin="round"/>
+<path d="M230 225C243.807 225 255 213.807 255 200C255 186.193 243.807 175 230 175C216.193 175 205 186.193 205 200C205 213.807 216.193 225 230 225Z" fill="#076A76" stroke="#231F20" stroke-width="4"/>
+<path d="M230 210C235.523 210 240 205.523 240 200C240 194.477 235.523 190 230 190C224.477 190 220 194.477 220 200C220 205.523 224.477 210 230 210Z" fill="white" stroke="#231F20" stroke-width="4"/>
+<path d="M107 265H155V285H107V265Z" fill="#076A76" stroke="#231F20" stroke-width="4" stroke-linejoin="round"/>
+<path d="M107.5 190L140 260L107.5 280L75 210L107.5 190Z" fill="#289375" stroke="#231F20" stroke-width="4" stroke-linejoin="round"/>
+<path d="M80 140H130L120 210H70L80 140Z" fill="white" stroke="#231F20" stroke-width="4" stroke-linejoin="round"/>
+<path d="M85 140H125L115 210H75L85 140Z" fill="#289375" stroke="#231F20" stroke-width="4" stroke-linejoin="round"/>
+<path d="M77 190H117" stroke="#231F20" stroke-width="4"/>
+<path d="M80 90C80 70 120 70 120 90V140H80V90Z" fill="#FFCDB2" stroke="#231F20" stroke-width="4" stroke-linejoin="round"/>
+<path d="M115 105L125 110L115 115" stroke="#231F20" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M105 102C106.105 102 107 101.105 107 100C107 98.8954 106.105 98 105 98C103.895 98 103 98.8954 103 100C103 101.105 103.895 102 105 102Z" fill="#231F20"/>
+<path d="M110 125C115 128 120 125 120 125" stroke="#231F20" stroke-width="3" stroke-linecap="round"/>
+<path d="M75 90C75 60 125 60 125 90H75Z" fill="#2B8F9E" stroke="#231F20" stroke-width="4" stroke-linejoin="round"/>
+<path d="M120 150L160 170L150 190L110 170L120 150Z" fill="white" stroke="#231F20" stroke-width="4" stroke-linejoin="round"/>
+<path d="M165 192C171.627 192 177 186.627 177 180C177 173.373 171.627 168 165 168C158.373 168 153 173.373 153 180C153 186.627 158.373 192 165 192Z" fill="#FFCDB2" stroke="#231F20" stroke-width="4"/>
+<path d="M90 150L155.143 130L166 150L100.857 170L90 150Z" fill="white" stroke="#231F20" stroke-width="4" stroke-linejoin="round"/>
+<path d="M160 152C166.627 152 172 146.627 172 140C172 133.373 166.627 128 160 128C153.373 128 148 133.373 148 140C148 146.627 153.373 152 160 152Z" fill="#FFCDB2" stroke="#231F20" stroke-width="4"/>
+<path d="M150 150L180 120L150 150Z" fill="black"/>
+<path d="M150 150L180 120" stroke="#231F20" stroke-width="8" stroke-linecap="round"/>
+<path d="M182 98L202 118L192 128L172 108L182 98Z" fill="#076A76" stroke="#231F20" stroke-width="4" stroke-linejoin="round"/>
+</svg>
